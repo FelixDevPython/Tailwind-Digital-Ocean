@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-digital-ocean",
+  "version": "1.0.0",
+  "description": "Pagina de inicio de Digital Ocean",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixDevPython/Tailwind-Digital-Ocean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixDevPython/Tailwind-Digital-Ocean/issues"
+  },
+  "homepage": "https://github.com/FelixDevPython/Tailwind-Digital-Ocean#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.0"
+  }
+}
