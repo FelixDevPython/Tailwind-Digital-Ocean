@@ -4,7 +4,11 @@
   "description": "Pagina de inicio de Digital Ocean",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "production": "vite build",
+    "preview": "vite preview",
+    "postcss-dev": "NODE_ENV=dev postcss ./css/tailwind.css -o ./css/postcss.css",
+    "postcss-prod": "NODE_ENV=production postcss ./css/tailwind.css -o ./css/postcss.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,7 @@
   "homepage": "https://github.com/FelixDevPython/Tailwind-Digital-Ocean#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.6",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "vite": "^6.3.0"
